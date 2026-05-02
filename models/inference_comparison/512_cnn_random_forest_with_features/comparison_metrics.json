@@ -1,0 +1,183 @@
+{
+  "dataset": "C:\\Users\\KannaKommunista\\Desktop\\industrial practice\\data\\byte_chunks_govdocs1_512.npz",
+  "split": "test",
+  "samples_total": 18262,
+  "samples_common_labels": 15960,
+  "common_labels": [
+    "doc",
+    "gif",
+    "html",
+    "jpg",
+    "pdf",
+    "ppt",
+    "txt",
+    "xls",
+    "xml"
+  ],
+  "our_checkpoint": "C:\\Users\\KannaKommunista\\Desktop\\industrial practice\\models\\artifacts\\byte_chunk_cnn.pt",
+  "fifty_model": "C:\\Users\\KannaKommunista\\Desktop\\industrial practice\\models\\fifty\\fifty\\utilities\\models\\512_1.h5",
+  "our_accuracy": 0.5669172932330827,
+  "fifty_accuracy": 0.3456140350877193,
+  "our_top_k": {
+    "top_1": 0.5669172932330827,
+    "top_2": 0.7464912280701754,
+    "top_3": 0.8798872180451128,
+    "top_4": 0.9467418546365914,
+    "top_5": 0.9738095238095238
+  },
+  "fifty_top_k": {
+    "top_1": 0.3456140350877193,
+    "top_2": 0.44511278195488724,
+    "top_3": 0.5051378446115288,
+    "top_4": 0.5386591478696742,
+    "top_5": 0.568546365914787
+  },
+  "our_classification_report": {
+    "doc": {
+      "precision": 0.6847027388109552,
+      "recall": 0.7177871148459384,
+      "f1-score": 0.7008547008547008,
+      "support": 1428.0
+    },
+    "gif": {
+      "precision": 0.20588235294117646,
+      "recall": 0.8525641025641025,
+      "f1-score": 0.3316708229426434,
+      "support": 624.0
+    },
+    "html": {
+      "precision": 0.9773569370111157,
+      "recall": 0.6340811965811965,
+      "f1-score": 0.7691560019439495,
+      "support": 3744.0
+    },
+    "jpg": {
+      "precision": 0.5738498789346247,
+      "recall": 0.4906832298136646,
+      "f1-score": 0.5290178571428571,
+      "support": 1932.0
+    },
+    "pdf": {
+      "precision": 0.8887694787748522,
+      "recall": 0.38717228464419473,
+      "f1-score": 0.5393771400619599,
+      "support": 4272.0
+    },
+    "ppt": {
+      "precision": 0.5983935742971888,
+      "recall": 0.33111111111111113,
+      "f1-score": 0.4263233190271817,
+      "support": 900.0
+    },
+    "txt": {
+      "precision": 0.5966952264381885,
+      "recall": 0.7065217391304348,
+      "f1-score": 0.6469807564698076,
+      "support": 1380.0
+    },
+    "xls": {
+      "precision": 0.9462068965517242,
+      "recall": 0.657088122605364,
+      "f1-score": 0.7755794234030525,
+      "support": 1044.0
+    },
+    "xml": {
+      "precision": 0.5593561368209256,
+      "recall": 0.8742138364779874,
+      "f1-score": 0.6822085889570552,
+      "support": 636.0
+    },
+    "micro avg": {
+      "precision": 0.6521551102782183,
+      "recall": 0.5669172932330827,
+      "f1-score": 0.6065562780719984,
+      "support": 15960.0
+    },
+    "macro avg": {
+      "precision": 0.6701348022867502,
+      "recall": 0.6279136375304438,
+      "f1-score": 0.6001298456448008,
+      "support": 15960.0
+    },
+    "weighted avg": {
+      "precision": 0.7754721668687404,
+      "recall": 0.5669172932330827,
+      "f1-score": 0.6224247388234231,
+      "support": 15960.0
+    }
+  },
+  "fifty_classification_report": {
+    "doc": {
+      "precision": 0.43154246100519933,
+      "recall": 0.17436974789915966,
+      "f1-score": 0.2483790523690773,
+      "support": 1428.0
+    },
+    "gif": {
+      "precision": 0.9052823315118397,
+      "recall": 0.7964743589743589,
+      "f1-score": 0.8473998294970162,
+      "support": 624.0
+    },
+    "html": {
+      "precision": 0.8258196721311475,
+      "recall": 0.7534722222222222,
+      "f1-score": 0.7879888268156424,
+      "support": 3744.0
+    },
+    "jpg": {
+      "precision": 0.8097345132743363,
+      "recall": 0.18944099378881987,
+      "f1-score": 0.3070469798657718,
+      "support": 1932.0
+    },
+    "pdf": {
+      "precision": 0.8632075471698113,
+      "recall": 0.12851123595505617,
+      "f1-score": 0.2237163814180929,
+      "support": 4272.0
+    },
+    "ppt": {
+      "precision": 0.38324022346368714,
+      "recall": 0.3811111111111111,
+      "f1-score": 0.38217270194986075,
+      "support": 900.0
+    },
+    "txt": {
+      "precision": 0.6086387434554974,
+      "recall": 0.33695652173913043,
+      "f1-score": 0.4337686567164179,
+      "support": 1380.0
+    },
+    "xls": {
+      "precision": 0.9634146341463414,
+      "recall": 0.15134099616858238,
+      "f1-score": 0.26158940397350994,
+      "support": 1044.0
+    },
+    "xml": {
+      "precision": 0.9444444444444444,
+      "recall": 0.1069182389937107,
+      "f1-score": 0.192090395480226,
+      "support": 636.0
+    },
+    "micro avg": {
+      "precision": 0.7330232558139534,
+      "recall": 0.3456140350877193,
+      "f1-score": 0.4697466467958271,
+      "support": 15960.0
+    },
+    "macro avg": {
+      "precision": 0.7483693967335895,
+      "recall": 0.3353994918724613,
+      "f1-score": 0.4093502475650684,
+      "support": 15960.0
+    },
+    "weighted avg": {
+      "precision": 0.7717009144482851,
+      "recall": 0.3456140350877193,
+      "f1-score": 0.4210807707896622,
+      "support": 15960.0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+[submodule "models/fifty"]
+	path = models/fifty
+	url = https://github.com/mittalgovind/fifty.git
+[submodule "models/bgpt"]
+	path = models/bgpt
+	url = https://github.com/sanderwood/bgpt.git
